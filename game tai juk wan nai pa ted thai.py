@@ -178,9 +178,9 @@ st.button(
 
 if "start" in st.session_state and not st.session_state.is_ended:
 
-    # กำหนดเวลา 30 วินาที
+    # กำหนดเวลา 60 วินาที
     time_left = int(
-        30 - (time.time() - st.session_state.start)
+        60 - (time.time() - st.session_state.start)
     )
 
 
